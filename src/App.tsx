@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./App.scss";
+import "./App.css";
 import { Table } from "./components/GoodsTable";
 import { Select } from "./components/BrandSelect";
 import { Pagination } from "./components/Pagination";
