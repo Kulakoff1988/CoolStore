@@ -26,7 +26,7 @@ const Table: React.FunctionComponent<TTableProps> = ({ goods }) => {
             <td>{good.quantity}</td>
             <td>{good.price}</td>
             <td>
-              <input readOnly type='checkbox' id={good.artnumber} defaultChecked={Boolean(good.stock)} />
+              <input readOnly={true} type='checkbox' id={good.artnumber} checked={Boolean(good.stock)} />
             </td>
           </tr>
         ))}
