@@ -1,0 +1,64 @@
+table {
+  width: 900px;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 5px;
+}
+
+th {
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+thead {
+  font-size: 14px;
+  font-weight: bold;
+  background: #808080;
+}
+
+.filter-handler {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+select {
+  height: 30px;
+}
+
+button {
+  height: 30px;
+  margin-top: 20px;
+}
+
+.pagination {
+  display: flex;
+  margin-top: 10px;
+  user-select: none;
+}
+
+.inactive {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.active {
+  background-color: gray;
+}
+
+.button {
+  padding: 5px;
+  border: 1px solid black;
+  margin-right: 10px;
+  min-width: 20px;
+  cursor: pointer;
+  text-align: center;
+}
